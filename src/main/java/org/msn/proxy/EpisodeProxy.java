@@ -15,6 +15,6 @@ import java.util.List;
 public interface EpisodeProxy {
 
     @GET
-    @Path("{id}/episodes")
+    @Path("{id}/episodesWWW")
     List<Episode> get(@PathParam("id") Long id);
 }
